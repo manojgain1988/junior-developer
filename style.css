@@ -1,0 +1,281 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+}
+/* menu part start*/
+.menu-part{
+    height: 60px;
+    width: 100%;
+    background: #5aacf8;
+    color: #fff;
+   
+}
+.menu-part h2{
+    margin-top: 12px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 30px;
+    font-weight: 900;
+   
+}
+.nav_menu{
+    flex: 1;
+    text-align: right;
+}
+.nav_menu ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 20px 15px;
+    font-size: 16px;
+    text-transform: uppercase;
+    position: relative;
+}
+.nav_menu ul li a{
+    text-decoration: none;
+    color: #fff;
+    text-align: center;
+    align-items: center;
+}
+/* menu part end*/
+.common_section{
+    height: 400px;
+    width: 100%;
+  
+  
+}
+
+.common-btn {
+    width: 140px;
+    height: 40px;
+    background-color: rgb(240, 50, 50);
+    color: #fff;
+    font-size: 16px;
+    margin-left: 18%;
+    margin-top: 20px;
+}
+/*  common section part end  */
+
+.header {
+    background-image: url('image/hero-mg-2.jfif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 19rem 0;
+    height: 100px;
+    /* background-attachment: fixed; */
+}
+.header p{
+    font-size: 35px; 
+    color: #fff;
+    margin-left: 19%;
+    margin-top: 0;
+}
+.header h1{
+    font-size: 45px;
+    color: #fff;
+    margin:10px 90px 3px;
+}
+
+
+   /*header part end */
+
+
+   /*About part start */
+.about-main{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 300px;
+   
+}
+.common_section h1{ 
+    margin-left: 10px;
+    text-align: center;
+    color: #1b1a1a;
+    font-size:3rem;
+    margin-top: 50px;
+}
+.common_section p{
+    color: #777;
+    text-align: center;
+    font-size:18px;
+    margin-top: 10px; 
+}
+.about-sub h1{
+   margin-right: 50%;
+    color: #1b1a1a;
+    font-size: 2rem;
+    margin-top: 70px;
+}
+.about-sub p{
+ color: #777;
+ text-align:left;
+ color: #777;
+ font-size:18px;
+ margin-top: 10px;
+ padding: 10px;
+  margin-right: 270px;
+ align-items: flex-end;
+}
+
+   /*About part end */
+
+   /*service  part start*/
+.service-part{
+    width: 100%;
+    height: 600px;
+    background: #e2e2e2;
+    margin-top: 8.5%;
+}
+.service-part h1{
+    text-align: center;
+    font-size: 50px;
+   padding-top: 6%;
+}
+.service-part p{
+    text-align: center;
+    font-size: 18px;
+    color: #5a5959;
+}
+
+   
+
+.row{
+    display: flex;
+    padding: 20px 50px;
+}
+
+.col-4 i{
+    font-size: 30px;
+   margin-left: 45%;
+}
+.col-4 h1{
+    font-size: 30px;
+}
+.col-4 p{
+    font-size: 16px;
+    padding:10px 30px;
+}
+/*service  part end */
+
+/*work  part start */
+.work-part{
+    width: 100%;
+    height:500px;
+    background: #bfd8d8;
+    
+}
+.work-part h1{
+  text-align: center;
+  font-size:45px;
+  padding-top: 5%;
+}
+.work-part p{
+    text-align: center;
+  font-size:15px;
+  padding-top: 2%; 
+  color: #777; 
+}
+.work-row{
+    display: flex;
+}
+.work-col-4{
+  font-size: 40px;
+
+}
+.work-col-4 h1{
+  
+    font-size: 30px;
+
+}
+.work-col-4 p{
+  padding: 30px;
+    font-size: 16px;
+
+}
+.work-col-4 i{
+    margin-left: 45%;
+   padding-top: 10%;
+}
+/*work  part end */
+
+/*testimonial part start*/
+.testimonial-part{
+    width: 100%;
+    height:400px;
+    margin-top: 4%;   
+}
+.testimonial-part h1{
+    text-align: center;
+    font-size: 35px;
+    text-decoration: underline;
+}
+.testimonial-part p{
+    text-align: center;
+    font-size: 25px;
+    color: #777;
+    margin: 15px;
+}
+.testi-col-4 i{
+    margin-left: 45%;
+    padding-top:2%;
+    font-size: 80px;
+ }
+
+.testi-col-4 p{
+    font-size:20px;
+    padding: 5px 80px;
+}
+.testi-col-4 h1{
+    font:20px;
+}
+/*testimonial part end */
+
+/*contact part start */
+.contact-part{
+    width: 100%;
+    height:500px;
+    margin-top:5px;
+    background-color: rgb(173, 173, 147);   
+}
+.contact-part h1{
+    text-align: center;
+    font-size: 35px;
+    padding: 45px 0;
+    text-decoration: underline;
+   
+}
+form{
+    margin-left: 550px;
+ 
+}
+input{
+    width: 225px;
+    height: 20px;
+   
+}
+.submit-btn{
+    font-size: 20px;
+    height: 30px;
+    background: #161616;
+    color: #cecdcd;
+    width: 230px;
+}   
+/*contact part end */
+
+
+/*fotter part start */
+.foter-Part h2{
+    height: 20px;
+    background: #111111;
+    text-align: center;
+    padding: 25px 0;
+    color: #fff;
+    font-size: 16px;
+}
+
+
+/*fotter part end */
